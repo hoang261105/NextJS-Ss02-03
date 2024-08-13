@@ -1,0 +1,275 @@
+// Bài 1
+
+.password {
+  width: 350px;
+  position: relative;
+  input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+  }
+  .icon {
+    position: absolute;
+    left: 270px; /* Đặt icon ở bên trái */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.container {
+  max-width: 500px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  h3 {
+    font-weight: bold;
+    padding: 10px;
+  }
+  .inputLabel {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    input {
+      width: 390px;
+      height: 30px;
+      outline: none;
+    }
+  }
+  .list {
+    border: 0.5px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    .list-item {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px;
+    }
+  }
+  .button {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    button {
+      border: 0.5px solid black;
+      border-radius: 5px;
+    }
+  }
+}
+
+// Bài 4
+
+.form-signup {
+  width: 500px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 30px;
+  h1 {
+    font-size: 40px;
+  }
+  .name {
+    width: 100%;
+    label {
+      font-weight: bold;
+    }
+    .value {
+      width: 90%;
+      height: 40px;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+    .item {
+      width: 100%;
+      .choose {
+        border: 0.5px solid black;
+        height: 40px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+      }
+      .phone {
+        width: 80%;
+        height: 40px;
+        border: 1px solid black;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+    }
+    .address {
+      height: 150px;
+    }
+  }
+
+  .select {
+    width: 100%;
+    .title {
+      font-weight: bold;
+    }
+    .divide {
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+  .signup button {
+    width: 90%;
+    height: 50px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    color: #fff;
+    background: purple;
+  }
+}
+
+// Bài 3
+.form-login {
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 30px;
+  h1 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .username input {
+    width: 100%;
+    height: 40px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+  }
+  .pass-word input {
+    width: 100%;
+    height: 40px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+  }
+  .remember {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    input {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .login button {
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .list-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid black;
+  }
+}
+
+// Bài 5
+.popup {
+  width: 500px;
+  height: auto;
+  padding: 10px;
+  border: 0.5px solid yellow;
+  border-radius: 5px;
+  .warning {
+    color: red;
+    font-size: 30px;
+  }
+  .paragraph {
+    width: 90%;
+  }
+  .group-button {
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    button {
+      width: 200px;
+      height: 40px;
+    }
+    .button-cancel {
+      border: 1px solid darkgray;
+      border-radius: 5px;
+    }
+    .button-delete {
+      background-color: red;
+      border-radius: 5px;
+      color: #fff;
+    }
+  }
+}
+
+// Bài 6
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-around;
+  background: blue;
+  .navbar-left img {
+    width: 200px;
+  }
+  .navbar-center {
+    display: flex;
+    gap: 40px;
+    :hover {
+      font-weight: bold;
+    }
+  }
+  .navbar-right img {
+    width: 60px;
+  }
+}
+
+// Bai 8
+.page {
+  display: flex;
+  gap: 10px;
+  button {
+    background-color: white;    // Màu nền mặc định
+    color: #007bff;             // Màu chữ mặc định
+    border: 1px solid #007bff;  // Viền mặc định
+    border-radius: 4px;         // Bo góc viền
+    padding: 5px 10px;          // Khoảng cách giữa nội dung và viền
+    margin: 0 5px;              // Khoảng cách giữa các nút
+    cursor: pointer;            // Con trỏ chuột khi hover
+    transition: background-color 0.3s, color 0.3s; // Hiệu ứng chuyển màu
+
+    &.active {
+      background-color: #007bff; // Màu nền khi active
+      color: white;              // Màu chữ khi active
+    }
+
+    &:hover:not(.active) {
+      background-color: #e9ecef; // Màu nền khi hover (không áp dụng cho nút active)
+    }
+
+    &:disabled {
+      cursor: not-allowed;       // Con trỏ chuột khi nút bị vô hiệu hóa
+      opacity: 0.6;              // Độ mờ khi nút bị vô hiệu hóa
+    }
+  }
+}
+
