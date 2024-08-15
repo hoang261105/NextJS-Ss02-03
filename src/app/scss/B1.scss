@@ -273,3 +273,56 @@
   }
 }
 
+// Bài 10
+.cart-item{
+  width: 250px;
+  height: auto;
+  border: 1px solid darkgray;
+  img{
+    border: 1px solid darkgrey;
+  }
+}
+
+// Bài 11
+.select-container {
+  width: 200px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.select-header {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.select-list li {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-list li:hover, .select-list li.active {
+  background-color: #f1f1f1;
+}
+
+.active-icon {
+  color: #007bff;
+}

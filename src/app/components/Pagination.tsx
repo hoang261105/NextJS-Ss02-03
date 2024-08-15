@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 
 export default function B8() {
@@ -33,8 +33,8 @@ export default function B8() {
         </button>
       ))}
       <button onClick={handleNext} disabled={currentPage === 10}>
-        <i className="fa-solid fa-arrow-right"></i>
         <span>Next</span>
+        <i className="fa-solid fa-arrow-right"></i>
       </button>
     </div>
   );

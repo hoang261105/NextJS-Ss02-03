@@ -1,0 +1,28 @@
+.alert_primary{
+    background: #79c2d0;
+    height: 30px;
+}
+
+.alert_danger{
+    background: #ff6868;
+    height: 30px;
+}
+
+.alert_warning{
+    background: #f9e090;
+    height: 30px;
+}
+
+.alert_success{
+    background: #e0ffcd;
+    height: 30px;
+}
+
+.alert{
+    width: 300px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid darkgray;
+    outline: none;
+    padding: 0 16px;
+}
